@@ -10,4 +10,14 @@ public class PersonModel
         Name = name;
         Id = Guid.NewGuid();
     }
+
+    public void ChangeName(string name)
+    {
+        Name = name;
+    }
+
+    public void SetInactive()
+    {
+        Name = "desativado";
+    }
 }
