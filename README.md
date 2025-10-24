@@ -2,3 +2,4 @@
 
 Simple .net api
 using sqlite
+VS22
