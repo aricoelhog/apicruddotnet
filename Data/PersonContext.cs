@@ -7,6 +7,7 @@ namespace Person.Data
     {
         public DbSet<PersonModel> People { get; set; }
 
+        // Configure DataBase
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data Source=person.sqlite");
